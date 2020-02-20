@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="admin.master.cs" Inherits="admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Admin Page</title>
+    <link href="App/styles.css" rel="stylesheet" type="text/css" />
+   
+</head>
+<body  style="background-image: url('/SOURCE CODE/Images/background_petrol_blue_262821.jpg')">
+		<!-- TITLE --><br /><br />
+		<h3><a href="#">EFFICIENT QUERY RETRIEVAL BASED ON PAGE RANKING IN WEB DATABASE </a></h3>
+      
+		<!-- END TITLE -->
+			<div class="nav">
+			<ul>	
+				<!-- MENU -->
+				<li><a href="Default.aspx" style="background-color: #CCCCFF">Home</a></li>
+				<li><a href="adlogin.aspx" style="background-color: #CCCCFF">Admin</a></li>
+				<li><a href="chart.aspx" style="background-color: #CCCCFF; height: 18px;">Chart Analysis</a></li>
+				<li><a href="adminView.aspx" style="background-color: #CCCCFF; height: 17px;">View Images</a></li>
+				<li><a href="Default.aspx" style="background-color: #CCCCFF">Logout</a></li>
+				<!-- END MENU -->
+			</ul>
+		</div>
+	
+<div class="pagewidth">
+	<div class="page-wrap">
+		<div class="content">
+		
+			<!-- CONTENT -->
+			  <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+			<br /><br />
+			
+			<!-- END CONTENT -->
+			
+		</div>
+		<div class="clear"></div>		
+	</div>
+	<div class="footer-wrapper-outside">
+		<div class="footer-wrapper">
+			<div class="footer">
+				<p></a></p> 
+			</div>	
+		</div>
+	</div>
+</div>
+</body>
+</html>
